@@ -1,0 +1,8 @@
+INSTALACION (XAMPP / WAMP / Laragon)
+1. Copia la carpeta "gestion-documentos" en htdocs (o www).
+2. Abre http://localhost/phpmyadmin > Importar > elige database.sql > Importar.
+3. Revisa usuario y contraseña de MySQL en config.php.
+4. Abre http://localhost/gestion-documentos/
+5. Si no ves cambios de estilo, recarga con Ctrl + F5.
+
+Para subir fotos grandes: en php.ini sube upload_max_filesize y post_max_size a 12M.
